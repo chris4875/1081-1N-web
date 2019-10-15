@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>Nav demo</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -12,7 +12,6 @@
       crossorigin="anonymous"
     />
   </head>
-
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="#">Navbar</a>
@@ -30,7 +29,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="../index.html"
+            <a class="nav-link" href="nav.html"
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
@@ -43,11 +42,12 @@
         </ul>
       </div>
     </nav>
+
     <div class="row">
-      <div class="col-10 mx-auto">
+      <div class="col-10 mx-auto my-4">
         <table class="table table-hover">
           <thead>
-            <tr>
+            <tr class="table-primary">
               <th scope="col">Image</th>
               <th scope="col">Name</th>
               <th scope="col">Type</th>
@@ -56,11 +56,11 @@
           </thead>
           <tbody>
             <tr>
-              <th scope="row">
+              <td>
                 <img
                   src="http://img4.wikia.nocookie.net/__cb20140328190757/pokemon/images/thumb/2/21/001Bulbasaur.png/200px-001Bulbasaur.png"
                 />
-              </th>
+              </td>
               <td class="align-middle">Bulbasaur</td>
               <td class="align-middle">Grass/Poison</td>
               <td class="align-middle">
@@ -68,11 +68,11 @@
               </td>
             </tr>
             <tr>
-              <th scope="row">
+              <td>
                 <img
                   src="http://img4.wikia.nocookie.net/__cb20140724195345/pokemon/images/thumb/7/73/004Charmander.png/200px-004Charmander.png"
                 />
-              </th>
+              </td>
               <td class="align-middle">Charmander</td>
               <td class="align-middle">Fire</td>
               <td class="align-middle">
@@ -82,11 +82,11 @@
               </td>
             </tr>
             <tr>
-              <th scope="row">
+              <td>
                 <img
                   src="http://img1.wikia.nocookie.net/__cb20140328191525/pokemon/images/thumb/3/39/007Squirtle.png/200px-007Squirtle.png"
                 />
-              </th>
+              </td>
               <td class="align-middle">Squirtle</td>
               <td class="align-middle">Water</td>
               <td class="align-middle">
@@ -97,7 +97,6 @@
         </table>
       </div>
     </div>
-
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
